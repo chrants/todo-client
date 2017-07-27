@@ -1,0 +1,11 @@
+.TodoItem {
+    
+}
+
+.TodoItem button {
+    visibility: hidden;
+}
+
+.TodoItem:hover button {
+    visibility: visible;
+}

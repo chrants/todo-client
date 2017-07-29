@@ -2,10 +2,10 @@
     
 }
 
-.TodoItem button {
+.TodoItem .show-hover {
     visibility: hidden;
 }
 
-.TodoItem:hover button {
+.TodoItem:hover .show-hover {
     visibility: visible;
 }

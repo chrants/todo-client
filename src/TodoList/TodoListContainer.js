@@ -19,6 +19,9 @@ const mapDispatchToProps = (dispatch) => {
         },
         onTodoDelete: (id) => {
             dispatch(Actions.removeTodo(id));
+        },
+        onTodoUpdate: (id, text) => {
+            dispatch(Actions.updateTodo(id, text))
         }
     }
 };

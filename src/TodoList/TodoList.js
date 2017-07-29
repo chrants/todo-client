@@ -10,7 +10,9 @@ class TodoList extends Component {
       <div className="TodoList">
         <AddTodo onTodoAdd={this.props.onTodoAdd} />
         <ul className="TodoList-items">
-            {this.props.todos.map(todo => <TodoItem todo={todo} onTodoDelete={this.props.onTodoDelete} onTodoClick={this.props.onTodoClick} />)}  
+            {this.props.todos.map(todo => 
+              <TodoItem todo={todo} onTodoDelete={this.props.onTodoDelete} onTodoClick={this.props.onTodoClick} onTodoUpdate={this.props.onTodoUpdate} />
+            )}  
         </ul>
       </div>
     );

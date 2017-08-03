@@ -7,3 +7,12 @@ body {
 .no-border {
   border: 0;
 }
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-right: 5px;
+}

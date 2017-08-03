@@ -5,7 +5,8 @@ import TodoList from './TodoList';
 
 const mapStateToProps = (state) => {
     return {
-        todos: state.get('todos')
+        todos: state.get('todos'),
+        removedTodos: state.get('removedTodos')
     }
 };
 
